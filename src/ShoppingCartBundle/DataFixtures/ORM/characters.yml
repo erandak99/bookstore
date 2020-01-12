@@ -1,0 +1,23 @@
+ShoppingCartBundle\Entity\Books:
+    character{1..100}:
+        category: "@book_type_*"
+        description: <realText()>
+        name: <sentence(4, true)>
+        price: <randomFloat(2, 20, 200)>
+        sold_count: <numberBetween(50, 500)>
+ShoppingCartBundle\Entity\Category:
+    book_type_fiction:
+        name: Fiction
+        description: <realText()>
+        discount: 0
+        discount_book_count: 0
+    book_type_children:
+        name: Children
+        description: <realText()>
+        discount: 10
+        discount_book_count: 5
+ShoppingCartBundle\Entity\Coupon:
+    coupon1{1..100}:
+        coupon: <bothify('?##??')>
+        discount: <numberBetween(5, 80)>
+        expire_date: <dateTime('now')>
