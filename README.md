@@ -1,13 +1,13 @@
 Symfony Assignment
 ==============
-PHP Version: **PHP 7.0.0**
+PHP Version: **PHP 7.2**
 
 
 
 Step 1
 
 Clone the project:
-`git clone git@github.com:spmsupun/assessment-99x.git`
+https://github.com/erandak99/bookstore.git
 
 Step 2
 
@@ -41,5 +41,5 @@ Run the application: `php bin/console server:start`
 **Note:**
 * Coupon stored in coupon table.
 * "10% discount for children" stored in category table.
-* Recommended environment is linux(Ubuntu)
-* Since there are no any user registration, cart's books store using a unique id. when user close the browser, cart item will be lose.
+* Recommended environment is linux(Ubuntu-Development done from ubuntu-mint)
+* Since there are no any user registration, cart's books store using a unique id. when user close the browser, cart item will      be lose.
