@@ -2,7 +2,7 @@ Symfony Assignment
 ==============
 PHP Version: **PHP 7.2**
 
-symfony Version **3.4**
+Symfony Version **3.4**
 
 Step 1
 
