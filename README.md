@@ -1,4 +1,4 @@
-Symfony Assignment
+Assignment
 ==============
 PHP Version: **PHP 7.2**
 
