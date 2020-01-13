@@ -1,6 +1,7 @@
 Symfony Assignment
 ==============
 PHP Version: **PHP 7.2**
+symfony Version **PHP 3.4**
 
 Step 1
 
@@ -41,4 +42,4 @@ Run the application: `php bin/console server:start`
 * Discount details are stored in the catergory table.
 * Cart Total Value rounded for two decimal places.
 * Recommended environment is linux(Development done from ubuntu-Mint)
-* Since there are no any user registration, cart's books store using a unique id. when user close the browser, cart item will      be lose.
+* Since there are no any user registration, cart's books store using a unique id. when user close the browser, cart item will         be lose.
