@@ -2,8 +2,6 @@ Symfony Assignment
 ==============
 PHP Version: **PHP 7.2**
 
-
-
 Step 1
 
 Clone the project:
@@ -33,13 +31,14 @@ Step 7
 
 Run the application: `php bin/console server:start`
 
-**Test**
+**Test Cases**
 
 `./vendor/bin/simple-phpunit`
 
 
 **Note:**
 * Coupon stored in coupon table.
-* "10% discount for children" stored in category table.
-* Recommended environment is linux(Ubuntu-Development done from ubuntu-mint)
+* Discount details are stored in the catergory table.
+* Cart Total Value rounded for two decimal places.
+* Recommended environment is linux(Development done from ubuntu-Mint)
 * Since there are no any user registration, cart's books store using a unique id. when user close the browser, cart item will      be lose.
